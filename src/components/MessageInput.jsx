@@ -1,3 +1,4 @@
+// src/components/MessageInput.jsx
 import React, { useState } from "react";
 
 const MessageInput = ({ onSendMessage }) => {
@@ -5,8 +6,8 @@ const MessageInput = ({ onSendMessage }) => {
 
   const handleSend = () => {
     if (message.trim() !== "") {
-      onSendMessage(message);
-      setMessage(""); // Clear input field
+      onSendMessage(message);  // Send message up to parent component
+      setMessage("");  // Clear the input field
     }
   };
 

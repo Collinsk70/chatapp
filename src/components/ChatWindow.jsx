@@ -1,3 +1,4 @@
+// src/components/ChatWindow.jsx
 import React from "react";
 
 const ChatWindow = ({ messages }) => {
