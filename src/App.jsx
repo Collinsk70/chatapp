@@ -1,8 +1,8 @@
 // src/App.jsx
 import React, { useState, useEffect } from "react";
 import { io } from "socket.io-client";
-import ChatWindow from "./components/ChatWindow";
-import MessageInput from "./components/MessageInput";
+import ChatWindow from "./components/ChatWindow.jsx";
+import MessageInput from "./components/MessageInput.jsx";
 
 // Connect to the backend server
 const socket = io("http://localhost:3000");
